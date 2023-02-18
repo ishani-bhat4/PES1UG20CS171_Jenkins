@@ -10,7 +10,7 @@ pipeline {
     }
     stage('Test') {
       steps {
-        sh './newfile'
+        sh './oldfile'
       }
     }
     stage('Deploy') {
